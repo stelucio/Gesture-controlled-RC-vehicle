@@ -35,7 +35,7 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 
 ### Software requirements
 - Arduino IDE
-- Common libraries (...)
+- Common libraries [MPU6050 LIbrary](https://github.com/jrowberg/i2cdevlib)
 
 ### PIN MAPPING
 #### ADAPTER NRF (PROTOCOLLO SPI) → ARDUINO UNO R4
@@ -96,12 +96,10 @@ IN4 →  digital pin 4
 ├── .gitignore
 └── LICENSE
 ~~~
-- `docs/` contains the web page and supporting scripts used for the project presentation.
 - `firmware/` contains all embedded software sources.
 - `arduino_car/` contains the directory `Progetto_RX_TX` necessary to burn and run the transmitter and the receiver code
 - `TEST_FILE/` includes isolated tests for motors, sensors etc...
 - `hardware/` contains schematics.
-- `images/` stores pictures used in documentation.
 
 
 ### 3. Firmware Arduino (for the car)
