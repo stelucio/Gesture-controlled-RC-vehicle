@@ -39,18 +39,62 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 - Arduino IDE
 - Common libraries (...)
 
+### PIN MAPPING
+####ADAPTER NRF (PROTOCOLLO SPI) → ARDUINO UNO R4
+
+- Adapter vcc→ 5volt arduino uno R4
+
+- Adapter GND→ GND arduino uno R4
+
+- Adapter CE → digital pin 7 arduino uno R4
+
+- Adapter CSN → digital pin 8 arduino uno R4
+
+- Adapter SCK → digital pin 13 arduino uno R4 (SPI)
+
+- Adapter MOSI → digital pin 11 arduino uno R4 (SPI)
+
+- Adapter MISO → digital pin 12 arduino uno R4 (SPI)
+
+
+####L298N → Arduino R4
+
+- ENA  → digital pin 5  
+- IN1 → digital pin 9
+- IN2 → digital pin 10
+- ENB → digital pin 6
+-IN3 → digital pin 2
+IN4 →  digital pin 4  
+- OUT3, OUT4, OUT1, OUT2 are connected to the motor cables
+
+- 12V → Positive of 12V battery pack
+
+- GND → GND battery PACK AND GND Arduino UNO R4 WIFI
+
+
+#### MPU 6050 PROTOCOLLO I2C
+
+- VCC MPU → 3.3V Adrian nano
+
+- GND MPU → GND arduino nano
+
+- SCL MPU → A5 arduino nano (I2C)
+
+- SDA MPU → A4 arduino nano (I2C)
+
+
+
+
+
 ## Project layout
 ~~~
 /project-root
 ├── README.md
 ├── docs/
 ├── firmware/
-│   ├── arduino_car/
-│   ├── progettoRX_TX_con_NRF04_TX_RX_RF/
+│   ├── arduino_car/progettoRX_TX_con_NRF04_TX_RX_RF/
 │   └── TEST_FILE/
 ├── hardware/
-├── images/
-├── report/
 ├── .gitignore
 └── LICENSE
 ~~~
