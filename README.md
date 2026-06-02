@@ -40,7 +40,7 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 - Common libraries (...)
 
 ### PIN MAPPING
-####ADAPTER NRF (PROTOCOLLO SPI) → ARDUINO UNO R4
+#### ADAPTER NRF (PROTOCOLLO SPI) → ARDUINO UNO R4
 
 - Adapter vcc→ 5volt arduino uno R4
 
@@ -57,7 +57,7 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 - Adapter MISO → digital pin 12 arduino uno R4 (SPI)
 
 
-####L298N → Arduino R4
+#### L298N → Arduino R4
 
 - ENA  → digital pin 5  
 - IN1 → digital pin 9
