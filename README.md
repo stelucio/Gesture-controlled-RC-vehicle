@@ -115,7 +115,7 @@ IN4 →  digital pin 4
 - Put to **on state** the switch of the car battery and enjoy with your project.
 #### MPU GESTURES CONTROL
 - To drive your car sees the demo on youtube that explains all the gestures necessary to drive it.
-- A cartesian visualization of the gestures is shown at [Click here](images/Mpu_gestures_cartesian_visualization.pdf).
+- A cartesian visualization of the gestures is shown at [Click here](Mpu_gestures_cartesian_visualization.pdf).
 
 
 ## Team members and contributions
