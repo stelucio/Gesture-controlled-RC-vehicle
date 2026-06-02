@@ -1,5 +1,3 @@
-# Gesture-controlled-RC-vehicle
-
 # IoT project:  Gesture-controlled RC vehicle
 
 My project consists of a small remote‑controlled rover that uses a gyroscope for steering and movement. 
