@@ -9,12 +9,31 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 * [Project layout](#project-layout)
 * [User guide](#user-guide)
 * [Links](#links)
-* [Team members](#team-members-and-contributions)
 
 ## Hardware and software requirements
 
 ### Hardware requirements
-- Arduino UNO for our car
+- Jumper 
+- x2 NRF24L01+ PA LNA SMA Antenna 2,4 GHz
+- x2 NRF adapter
+- x1 ARDUINO UNO R4 WIFI
+- x1 Power Bank 10400 mA 5V-2.1A
+- x1 L298N Motor Driver
+- x2 Battery pack 3V
+- x4 5V Motors 
+- x4 Tires
+- chassis 
+- Power Bank 5000mA
+- AZDelivery AZ-Nano V3-Board
+- AZDelivery AZ-Nano V3-Board case
+- MPU 6050 support 
+- straps
+- Adhesive tape
+- 5 volt benchtop generator
+- Stagnator
+- USB-C cables
+- Screws
+- Bolts
 
 ### Software requirements
 - Arduino IDE
@@ -27,8 +46,6 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 ├── docs/
 ├── firmware/
 │   ├── arduino_car/
-│   ├── esp32/
-│   ├── fsm_velox/
 │   ├── progettoRX_TX_con_NRF04_TX_RX_RF/
 │   └── TEST_FILE/
 ├── hardware/
@@ -40,12 +57,10 @@ My project consists of a small remote‑controlled rover that uses a gyroscope f
 - `docs/` contains the web page and supporting scripts used for the project presentation.
 - `firmware/` contains all embedded software sources.
 - `arduino_car/` contains the directory `Progetto_RX_TX` necessary to burn and run the transmitter and the receiver code
-- `esp32/` includes the ESP32 firmware, web server files, and the main sketch.
-- `fsm_velox/` contains the Velox state machine firmware and the code for sending data to the web server.
 - `TEST_FILE/` includes isolated tests for motors, sensors etc...
 - `hardware/` contains schematics.
 - `images/` stores pictures used in documentation.
-- `report/` contains the final report (and related material).
+
 
 ### 3. Firmware Arduino (for the car)
 #### Receiver configuration and how to burn and run it
